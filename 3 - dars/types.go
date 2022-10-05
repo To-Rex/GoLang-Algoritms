@@ -1,7 +1,11 @@
 //constructor users
 package main
 
-type users struct {
-	name string
-	age  int
+import (
+	"fmt"
+)
+
+func types() {
+	fmt.Println("Hello World")
+	fmt.Println("Hello World1")
 }
