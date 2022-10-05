@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
-	loop()
+	loop3()
 }
 
 func loop() {
@@ -30,5 +31,12 @@ func loop2() {
 		if i == 10 {
 			break
 		}
+	}
+}
+
+func loop3() {
+	for {
+		time.Sleep(1 * time.Second)
+		fmt.Println(time.Now().Second())
 	}
 }
