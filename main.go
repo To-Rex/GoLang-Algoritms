@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	functions2()
+	functions3()
 }
 
 func functions() {
@@ -51,3 +51,13 @@ func functions2() {
 	fmt.Println(mArr[:])
 	fmt.Println(mArr[2:7])
 }
+func functions3() {
+	mArr := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	for i, v := range mArr {
+		fmt.Println(i, v)
+	}
+	for _, v := range mArr {
+		fmt.Println(v)
+	}
+}
+
