@@ -12,6 +12,7 @@ func (q *queue) enqueue(i int) {
 	q.items = append(q.items, i)
 }
 
+
 func (q *queue) dequeue() int {
 	toRemove := q.items[0]
 	q.items = q.items[1:]
@@ -34,8 +35,7 @@ func (q *queue) size() int {
 	return len(q.items)
 }
 
-
-func main() {
+func works() {
 	q := queue{}
 	q.enqueue(1)
 	q.enqueue(2)
@@ -50,4 +50,8 @@ func main() {
 	q.print()
 	fmt.Println(q.isEmpty())
 	q.print()
+}
+
+func main() {
+	works()
 }
