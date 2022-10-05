@@ -9,6 +9,7 @@ import (
 func main() {
 	start1()
 }
+
 func start() {
 	var wg sync.WaitGroup
 	wg.Add(2)
