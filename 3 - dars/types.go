@@ -1,6 +1,16 @@
+//constructor users
 package main
-import ("fmt")
 
-func types() {
-	fmt.Println("Hello World")
+func NewUser(name string, age int) *User {
+	return &User{
+		Name: name,
+		Age:  age,
+	}
+}
+//constructor users
+func NewUser(name string, age int) *User {
+	return &User{
+		Name: name,
+		Age:  age,
+	}
 }
