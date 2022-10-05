@@ -11,4 +11,5 @@ func main() {
 			fmt.Println(v1)
 		}
 	}
+	fmt.Println("tomosha tamom")
 }
