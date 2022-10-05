@@ -60,4 +60,6 @@ func functions3() {
 		fmt.Println(v)
 	}
 }
-
+func functions4() {
+	
+}
