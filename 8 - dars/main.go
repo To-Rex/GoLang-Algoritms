@@ -12,7 +12,6 @@ func (q *queue) enqueue(i int) {
 	q.items = append(q.items, i)
 }
 
-
 func (q *queue) dequeue() int {
 	toRemove := q.items[0]
 	q.items = q.items[1:]
