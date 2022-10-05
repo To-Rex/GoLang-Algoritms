@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	functions3()
+	functions4()
 }
 
 func functions() {
@@ -61,5 +61,6 @@ func functions3() {
 	}
 }
 func functions4() {
-	
+	mArr :=[4]int{1, 2, 3, 4}
+	fmt.Println(mArr)
 }
