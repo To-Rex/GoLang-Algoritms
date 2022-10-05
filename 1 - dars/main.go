@@ -30,6 +30,7 @@ func functions() {
 	default:
 		fmt.Println("Bunday hafta kuni yo'q")
 	}
+	fmt.Println("tomosha tamom")
 }
 func functions1() {
 	mArr:=[]string{"Dushanba","Seshanba","Chorshanba","Payshanba","Juma","Shanba","Yakshanba"}
@@ -41,26 +42,5 @@ func functions1() {
 	for i,v:=range mArr{
 		fmt.Println(i+1,v)
 	}
-
-}
-func functions2() {
-	mArr := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	fmt.Println(mArr[0:5])
-	fmt.Println(mArr[5:])
-	fmt.Println(mArr[:5])
-	fmt.Println(mArr[:])
-	fmt.Println(mArr[2:7])
-}
-func functions3() {
-	mArr := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	for i, v := range mArr {
-		fmt.Println(i, v)
-	}
-	for _, v := range mArr {
-		fmt.Println(v)
-	}
-}
-func functions4() {
-	mArr :=[4]int{1, 2, 3, 4}
-	fmt.Println(mArr)
+	fmt.Println("tomosha tamom")
 }
