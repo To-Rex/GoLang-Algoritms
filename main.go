@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	functions1()
+	functions2()
 }
 
 func functions() {
@@ -44,13 +44,6 @@ func functions1() {
 
 }
 func functions2() {
-	mArr:=[]string{"Dushanba","Seshanba","Chorshanba","Payshanba","Juma","Shanba","Yakshanba"}
-	//for mArr size for loop
-	for i:=0;i<len(mArr);i++{
-		fmt.Println(mArr[i])
-	}
-	//for range loop
-	for i,v:=range mArr{
-		fmt.Println(i+1,v)
-	}
+	mArr := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	fmt.Println(mArr)
 }
