@@ -45,5 +45,9 @@ func functions1() {
 }
 func functions2() {
 	mArr := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	fmt.Println(mArr)
+	fmt.Println(mArr[0:5])
+	fmt.Println(mArr[5:])
+	fmt.Println(mArr[:5])
+	fmt.Println(mArr[:])
+	fmt.Println(mArr[2:7])
 }
