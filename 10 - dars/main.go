@@ -10,12 +10,12 @@ type calculation struct {
 }
 
 func main() {
-	const jobsCount = 60
+	const jobsCount = 40
 	jobs := make(chan calculation, jobsCount)
 	results := make(chan calculation, jobsCount)
 	start := time.Now()
 
-	for w := 1; w <= 20; w++ {
+	for w := 1; w <= 10; w++ {
 		go worker(w, jobs, results)
 	}
 
